@@ -43,7 +43,6 @@
 	h6 {font-size: 12px;}
 	
 	h3.main-heading {
-		background-image:url('../images/plus.png');
 		background-repeat: no-repeat;
 		background-position:left 2px;
 		margin:15px 2px;
@@ -303,8 +302,18 @@
 		padding:20px;
 		overflow:hidden;
 	}
+	#resume .icon{
+		margin-left: -22px;
+    	padding-right: 10px;
+	}
+	.designation{
+		font-weight: bolder;
+	}
 	.skills-section, .timeline-section {
 		float:left;
+	}
+	.lang-list i{
+		font-size: 32px;
 	}
 	/* Timeline Section */
 	.timeline-section {
@@ -327,7 +336,7 @@
 	}
 	.timeline li .timelineUnit .timelineDate {
 		line-height:17px;
-		color: #f4c024;
+		color: #A9A9A9;
 		font-size:14px;
 		margin-left:10px;
 		font-weight: normal;
@@ -342,17 +351,29 @@
 	.timeline li .timelineUnit h5 {
 		line-height:18px;
 		font-size:13px;
-		color: #999;
+		color: #000000;
 	}
 	.timeline li .timelineUnit p {
 		color: #666;
 		font-size:12px;
 		margin-top:5px;
+		font-style: italic;
+	}
+	.task-list{
+		margin-top: 5px;
+	}
+	.task-list li{
+		margin: 0;
 	}
 	/* Skills Section */
 	.skills-section {
 		width:300px;
 	}
+	.skills-section p.title{
+		text-align: center;
+    	font-weight: bold;
+	}
+
 	.skills {
 		margin-top:25px;
 		overflow:hidden;
