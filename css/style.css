@@ -64,7 +64,6 @@
 		/* Top Section */
 	/*-------------------------------------------------------*/
 	div.top {
-		height:60px;
 		margin-bottom:20px;
 		overflow:hidden;
 	}
@@ -260,6 +259,9 @@
 		text-align:center;
 	}
 	.tabs li.active {
+		background:url('../images/tab-hover.png') no-repeat;
+	}
+	.tabs li:hover{
 		background:url('../images/tab-hover.png') no-repeat;
 	}
 	.tabs li.active a {
@@ -933,7 +935,6 @@
 		/* Profile Section */
 	/*-------------------------------------------------------*/
 	div.top {
-		height:50px;
 		margin-bottom:5px;
 	}
 	/* About */
