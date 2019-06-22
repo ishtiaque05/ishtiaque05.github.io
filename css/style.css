@@ -306,15 +306,17 @@
 		margin-left: -22px;
     	padding-right: 10px;
 	}
+	.coding-lang i{
+		font-size: 50px;
+		margin: 0 5px;
+	}
 	.designation{
 		font-weight: bolder;
 	}
 	.skills-section, .timeline-section {
 		float:left;
 	}
-	.lang-list i{
-		font-size: 32px;
-	}
+
 	/* Timeline Section */
 	.timeline-section {
 		width:460px;
@@ -372,6 +374,8 @@
 	.skills-section p.title{
 		text-align: center;
     	font-weight: bold;
+    	margin: 10px 0;
+    	text-decoration: underline;
 	}
 
 	.skills {
