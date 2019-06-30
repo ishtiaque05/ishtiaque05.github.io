@@ -319,8 +319,8 @@
 
 	/* Timeline Section */
 	.timeline-section {
-		width:460px;
-		padding-right:60px;
+		width:540px;
+		/*padding-right:60px;*/
 	}
 	.timeline {
 		padding-top:10px;
