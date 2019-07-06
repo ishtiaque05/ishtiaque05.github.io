@@ -241,8 +241,8 @@
 		height:116px;
 		position: absolute;
 		margin-top:-14px;
-		padding-left:130px;
 		z-index:100;
+		transform: translateX(50%);
 	}
 	.tabs li {
 		float:left;
@@ -317,9 +317,21 @@
 		float:left;
 	}
 
+	.expertise{
+		padding-left: 25px;
+	}
+
+	.text-bold{
+		font-weight: bold;
+	}
+
+	.expertise td {
+		padding: 5px;
+	}
+
 	/* Timeline Section */
 	.timeline-section {
-		width:540px;
+		width:520px;
 		/*padding-right:60px;*/
 	}
 	.timeline {
@@ -369,7 +381,7 @@
 	}
 	/* Skills Section */
 	.skills-section {
-		width:300px;
+		width: 330px;
 	}
 	.skills-section p.title{
 		text-align: center;
