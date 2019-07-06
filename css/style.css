@@ -321,6 +321,31 @@
 		padding-left: 25px;
 	}
 
+	#research .timeline-section{
+		width: 95%;
+	}
+
+	#research .timelineUnit{
+		padding: 0 30px;
+		margin-bottom: 25px;
+	}
+
+	#research .designation{
+		margin-bottom: 10px;s
+	}
+
+	#research .timelineDate{
+		float: right;
+	}
+	#research a{
+		color: blue;
+	}
+
+	#research a:hover{
+		text-decoration: underline;
+		cursor: pointer;
+	}
+
 	.text-bold{
 		font-weight: bold;
 	}
@@ -927,6 +952,9 @@
 
 		margin-right:60px;
 	}
+
+
+
 	/*-------------------------------------------------------*/
 		/* Contact */
 	/*-------------------------------------------------------*/
